@@ -1,0 +1,132 @@
+/* BACKGROUND */
+body {
+    background-image: url('Blue.jpg');
+    background-size: 1680px 1050px; /* or any other size option */
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+/* NAME */
+
+.main {
+	 margin-bottom: -50px; /* Adjust the value to reduce the space */
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	font-family: "Lucida Handwriting", Times, Cursive;  
+
+}
+
+/* QUOTE */
+
+.quote {
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	font-family: "Lucida Handwriting", Times, Cursive;  
+
+}
+
+/* MENU */
+
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Center the menu container vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center-down;
+    align-items: center;
+    height: 100vh; /* 100% of viewport height */
+    background-color: #f0f0f0; /* Background color for the page */
+}
+
+/* Style for the menu container */
+.menu {
+    text-align: center; /* Center-align the buttons */
+}
+
+/* Style for the menu buttons */
+.menu-button {
+    padding: 10px 30px; /* Adjust padding for the desired button size */
+    background-color: white;
+	color: black;
+	border: 2px solid #058fc5; /* Blue */
+    border-radius: 10px; /* Rounded corners to create a square look */
+    margin: 10px 20px; /* Add some spacing between buttons */
+	font-family: "Lucida Handwriting", Times, Cursive; 
+    font-size: 20px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition for hover effect */
+}
+
+a {
+color: black;
+}
+a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
+}
+
+/* Change button background color on hover */
+.menu-button:hover {
+    background-color: #058fc5; /* Change to a lighter shade on hover */
+}
+
+/* TEXTBOX */
+
+td {
+  text-align: center;
+  font-family: "Lucida Handwriting", Times, Cursive;  
+  font-size: 12px;
+  padding: 150px; /* Add padding inside table cells */
+  text-align: center; /* Center-align cell content */
+  background-image: url('paint.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+     
+        }
+		
+/* VIDEO*/
+	/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the video container using flexbox */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* 100% of the viewport height */
+}
+
+/* Style the video element */
+video {
+    max-width: 100%; /* Make sure the video doesn't overflow the viewport */
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+	
+
+
