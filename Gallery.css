@@ -17,6 +17,14 @@ h1 {
 
 }
 
+h3 {
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	font-family: "Lucida Handwriting", Times, Cursive;  
+	background-color:white;
+}
+
 /* MENU */
 
 /* Reset some default styles */
@@ -78,42 +86,15 @@ a:active {
     background-color: #058fc5; /* Change to a lighter shade on hover */
 }
 
-/* TEXTBOX */
 
-td {
-  text-align: center;
-  font-family: "Lucida Handwriting", Times, Cursive;  
-  font-size: 12px;
-  padding: 150px; /* Add padding inside table cells */
-  text-align: center; /* Center-align cell content */
-  background-image: url('paint.png');
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-     
-        }
-		
-/* VIDEO*/
-	/* Reset some default styles */
-body, html {
-    margin: 0;
-    padding: 0;
-}
+	/* LIST */
 
-/* Center the video container using flexbox */
-.video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh; /* 100% of the viewport height */
-}
-
-/* Style the video element */
-video {
-    max-width: 100%; /* Make sure the video doesn't overflow the viewport */
-    max-height: 100%;
-    width: auto;
-    height: auto;
-}
-
+.LIST {
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	font-family: "Lucida Handwriting", Times, Cursive; 
+	background-color: white;
 	
+
+}

@@ -1,0 +1,12 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.my.class{
+    background: #1f06fd;
+}
+p.my.class{
+    color:white;
+}
+#my-id{
+    font-size: 0.7rem;
+}
